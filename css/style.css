@@ -184,7 +184,7 @@ header{
 
 .slider {
     width: 25px;
-    height: 50px;
+    height: 52px;
     border: 1px #fff solid;
     border-radius: 50px;
     position: absolute;
@@ -317,7 +317,7 @@ textarea{
  /* Footer Start */
 footer{
     background: #195B42;
-    padding: 60px 0 30px 0;
+    padding: 60px 0 0 0;
 }
 footer ul li a{
     font-weight: 400;
@@ -327,6 +327,12 @@ footer ul li a{
     transition: 0.5s;
 }footer ul li a:hover{
     color: #AC8D3F;
+}
+
+.copyright {
+    background: #195B42;
+    padding: 25px 0;
+    border-top: 1px rgba(245, 245, 246, 0.21) solid;
 }
 .social li {
     margin: 0 12px 0 0;
@@ -470,6 +476,6 @@ footer ul li a{
         padding-bottom: 15px!important ;
     }
     footer {
-        padding: 30px 0 30px 0;
+        padding: 30px 0 0 0;
     }
  }
